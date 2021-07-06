@@ -1,5 +1,5 @@
 ##### OPA setup
-1. Downlad and install opa binary (https://www.openpolicyagent.org/docs/latest/#running-opa)
+1. Download and install opa binary (https://www.openpolicyagent.org/docs/latest/#running-opa)
 2. Run opa `opa run -s rego/example.rego -l debug` [url](http://localhost:8181)
 
 

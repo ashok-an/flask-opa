@@ -35,6 +35,4 @@ PASS: 7/7
 
 
 ##### Testing
-- Use swagger UI
-- set <emp-id> through Authorization
-- run the query
+![Swagger UI](swagger.png)

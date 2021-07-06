@@ -1,9 +1,9 @@
-### OPA setup
+##### OPA setup
 1. Downlad and install opa binary (https://www.openpolicyagent.org/docs/latest/#running-opa)
 2. Run opa `opa run -s rego/example.rego -l debug` [url](http://localhost:8181)
 
 
-### OPA test-cases
+##### OPA test-cases
 ```$ opa test -v rego/
 data.example.test_ok: PASS (2.469597ms)
 data.example.test_get_same_user: PASS (1.15647ms)
@@ -17,24 +17,24 @@ PASS: 7/7
 ```
 
 
-### Data for testing
+##### Data for testing
 - Under `data.json`
 
 
-### Run the server
+##### Run the server
 - Install dependencies (`requirements.txt`)
 - `$ python app.py` [swagger url](http://localhost:12345)
 - port: `12345`
 
 
-### About the authorization
+##### About the authorization
 - Anybody can query `/office` (to list all employees)
 - All other paths require an authorization header `Authorization: <emp-id>`
 - `mike` is the manager. He can add/delete other employees (not `toby`)
 - Any employee can view/update his/her information `/office/<emp-id>`
 
 
-### Testing
+##### Testing
 - Use swagger UI
 - set <emp-id> through Authorization
 - run the query

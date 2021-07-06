@@ -1,0 +1,9 @@
+{
+  "mike": { "role": "manager", "name": "Michael Scott", "manager": "jane"},
+  "jim": { "role": "sales", "name": "Jim Helpert", "manager": "mike"},
+  "pam": { "role": "reception", "name": "Pam Beesley", "manager": "mike"},
+  "dwight": { "role": "sales", "name": "Dwight Schrute", "manager": "mike"},
+  "kevin": { "role": "accounts", "name": "Kevin Malone", "manager": "mike"},
+  "toby": { "role": "hr", "name": "Toby Flanderson", "manager": "jane"},
+  "ryan": { "role": "temp", "name": "Ryan Howard", "manager": "mike"}
+}

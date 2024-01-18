@@ -27,6 +27,15 @@ PASS: 7/7
 - port: `12345`
 
 
+##### Run the server with Docker
+If you would like to keep your computer clean and not install OPA or any Python dependencies on it, you can use Docker. The Dockerfile in this project repository builds a Docker container with both OPA and flask-opa in it. The defined target architecture is ARM64, but can be swapped by changing the OPA download instructions in the Dockerfile. 
+
+- docker build -t flask-opa .
+- docker run -ti -p 127.0.0.1:12345:12345 flask-opa
+
+This will show the logs for both OPA and flask-opa, scrolling on your console.
+
+
 ##### About the authorization
 - Anybody can query `/office` (to list all employees)
 - All other paths require an authorization header `Authorization: <emp-id>`
